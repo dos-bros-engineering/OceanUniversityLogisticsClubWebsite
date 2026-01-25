@@ -1,9 +1,10 @@
-// emailTemplates/resetPassword.js
+require('dotenv').config();
+
 module.exports = function resetPasswordTemplate({
   userName,
   otp,
-  clubName = "Ocean University Logistics Club",
-  logoUrl = "https://media.licdn.com/dms/image/v2/D560BAQG8QO381bNrKQ/company-logo_200_200/company-logo_200_200/0/1722521376785/department_of_maritime_transportation_management_and_logistics_of_the_ocean_university_of_sri_lanka_logo?e=2147483647&v=beta&t=xL1XtlWyMVboIaJ9QwqHpXgRMTEGy7LpRnG19fPvNUs",
+  clubName = process.env.CLUB_NAME,
+  logoUrl = process.env.CLUB_LOGO_URL,
 }) {
     return `
     <!DOCTYPE html>
