@@ -1,4 +1,9 @@
 /* Rich text editor's HTML view */
+.rich-text-display {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 .rich-text-display img {
   width: 100%;
   border-radius: 5px;
