@@ -27,7 +27,7 @@ const AuthAdminLayout = () => {
         isPendingCategory ) && (
         <div className="d-flex flex-column justify-content-center align-items-center min-vh-100">
           <LoaderAnimation />
-          <h4 className="mt-3">Loading...</h4>
+          {/* <h4 className="mt-3">Loading...</h4> */}
         </div>
       )}
 
