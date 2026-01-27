@@ -5,7 +5,7 @@ const LoaderAnimation = () => {
   return (
     <div
       style={{
-        width: "16%",
+        width: "12%",
         overflow: "hidden",
       }}
     >

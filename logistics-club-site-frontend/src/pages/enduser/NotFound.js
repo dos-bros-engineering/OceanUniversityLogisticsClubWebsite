@@ -17,7 +17,7 @@ const NotFound = () => {
           <NotFoundAnimation />
         </div>
 
-        <div className="p-0 col-lg-4 mt-lg-5">
+        <div className="p-0 col-lg-4">
           <div className="mx-4">
             <h1 className="mb-0">Lost in Transit</h1>
             <div className="divider pt-1 bg-white rounded"></div>
