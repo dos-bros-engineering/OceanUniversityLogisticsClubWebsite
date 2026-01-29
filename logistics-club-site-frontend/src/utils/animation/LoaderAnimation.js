@@ -6,7 +6,7 @@ const LoaderAnimation = () => {
     <>
       <div
         style={{
-          width: "12%",
+          width: "18%",
           overflow: "hidden",
         }}
         className="d-none d-lg-block"
@@ -17,7 +17,7 @@ const LoaderAnimation = () => {
       {/* Mobile view  */}
       <div
         style={{
-          width: "25%",
+          width: "45%",
           overflow: "hidden",
         }}
         className="d-lg-none"

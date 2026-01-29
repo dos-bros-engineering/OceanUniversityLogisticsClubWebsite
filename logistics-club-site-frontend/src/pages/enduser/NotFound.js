@@ -19,13 +19,13 @@ const NotFound = () => {
 
         <div className="p-0 col-lg-4 mt-2 mt-lg-0">
           <div className="mx-4">
-            <h1 className="mb-0">Lost at Sea</h1>
+            <h1 className="mb-0">Route Not Found</h1>
             <div className="divider pt-1 bg-white rounded"></div>
           </div>
           <div className="mt-3">
             <h4 className="mx-4">
-              Land ho? Nay! This page be swallowed by the sea, never to be seen
-              again!
+              Oops! This shipment seems to be off the grid. The page you’re
+              looking for couldn’t be delivered.
             </h4>
             <div className="d-flex justify-content-center">
               <button
@@ -33,7 +33,7 @@ const NotFound = () => {
                 className="btn btn-light btn-lg mt-2 fw-bold"
                 onClick={() => navigate("/")}
               >
-                Sail Home
+                Return to Home
               </button>
             </div>
           </div>

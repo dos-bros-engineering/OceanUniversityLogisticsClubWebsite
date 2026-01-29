@@ -5,11 +5,8 @@ const NotFoundAnimation = () => {
   return (
     <div
       style={{
-        width: "55%",
+        width: "65%",
         overflow: "hidden",
-        background: "#d8d8d8",
-        borderRadius: "50%",
-        padding: "2%"
       }}
     >
       <Lottie animationData={animationData} loop autoplay />

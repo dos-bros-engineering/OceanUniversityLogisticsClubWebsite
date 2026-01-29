@@ -6,8 +6,12 @@ const ErrorAnimation = () => {
     <>
       <div
         style={{
-          width: "20%",
+          width: "16%",
           overflow: "hidden",
+          background: "#ffffff",
+          borderRadius: "50%",
+          paddingLeft: "1%",
+          marginBottom: "1%"
         }}
         className="d-none d-lg-block"
       >
@@ -17,8 +21,12 @@ const ErrorAnimation = () => {
       {/* Mobile view  */}
       <div
         style={{
-          width: "50%",
+          width: "35%",
           overflow: "hidden",
+          background: "#ffffff",
+          borderRadius: "50%",
+          paddingLeft: "1%",
+          marginBottom: "1%"
         }}
         className="d-lg-none"
       >
